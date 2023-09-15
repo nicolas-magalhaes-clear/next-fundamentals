@@ -1,11 +1,18 @@
-import styles from './../styles/Estiloso.module.css'
+import Layout from '../components/Layout'
+import styles from '../styles/Estiloso.module.css'
 
-export default function Estiloso(){
+const Estiloso = () => {
+    return (
+        <Layout>
+            <div className={styles.roxo}>
 
+                <h1>Estilo usando css modules</h1>
 
-    return(
-        <div className={styles.roxo}>
-            <h1>Estilo usando CSS Módulos</h1>
-        </div>
+            </div>
+        </Layout>
+
     )
 }
+
+
+export default Estiloso
