@@ -10,11 +10,12 @@ export default function Inicio() {
         <div>
             <div className={styles.displayMenu}>
 
-                <Navegador text="Estiloso" destino="/estiloso"></Navegador>
+                <Navegador text="Estiloso" destino="/Estiloso"></Navegador>
                 <Navegador text="Exemplo" destino="/exemplo"></Navegador>
                 <Navegador text="JSX" destino="/jsx"></Navegador>
                 <Navegador text="Navegacao #01" destino="/navegacao/"></Navegador>
                 <Navegador text="Navegação #02" destino="/cliente/sp0011/123"></Navegador>
+                <Navegador text="Estado de componentes" destino="/Estado"></Navegador>
 
             </div>
             <main className={styles.mainArea}>
