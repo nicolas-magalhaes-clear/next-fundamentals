@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+.displayMenu{
+    height: 12vh;
+    padding: 20px;
+     background-color: #85cb33;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: RobotoMono, Monospace;
+    justify-content: space-between;
+}
+.mainArea{
+    background-color: #3B341F;
+    height: 88vh;
+}
