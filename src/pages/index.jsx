@@ -1,5 +1,7 @@
+
 import React from "react"
 import Navegador from "../components/Navegador"
+
 import styles from '../styles/index.module.css'
 
 export default function Inicio() {

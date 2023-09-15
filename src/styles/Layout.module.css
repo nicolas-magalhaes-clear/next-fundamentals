@@ -2,12 +2,17 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background-color: #bbb;
+}
+.cabecalho > h1{
+    margin: 0 !important;
 }
 .cabecalho a{
     background-color: crimson;
