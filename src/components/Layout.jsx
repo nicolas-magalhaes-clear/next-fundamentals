@@ -7,6 +7,7 @@ const Layout = (props) =>{
     return(
         <div className={styles.Layout}>
             <div className={styles.cabecalho}>
+            <h1>{props.titulo}</h1>
             <Link href="/" >Voltar</Link>
 
 
