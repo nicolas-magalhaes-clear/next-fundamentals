@@ -1,14 +1,27 @@
-export default function Inicio(){
-    const a  = 1;
-    const b = 3;
-    console.log(a*b)
-    
+import React from "react"
+import Navegador from "../components/Navegador"
+import styles from '../styles/index.module.css'
+
+export default function Inicio() {
+
+
+
     return (
         <div>
-            <h1>Fundamentos next-js</h1>
-            <h2>Vamos estudar o framework</h2>
+            <div className={styles.displayMenu}>
 
-            
+                <Navegador text="Estiloso" destino="/estiloso"></Navegador>
+                <Navegador text="Exemplo" destino="/exemplo"></Navegador>
+                <Navegador text="JSX" destino="/jsx"></Navegador>
+                <Navegador text="Navegacao #01" destino="/navegacao/"></Navegador>
+                <Navegador text="Navegação #02" destino="/cliente/sp0011/123"></Navegador>
+
+            </div>
+            <main className={styles.mainArea}>
+
+
+            </main>
         </div>
+
     )
 }
